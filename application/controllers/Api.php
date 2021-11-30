@@ -5,9 +5,6 @@ require APPPATH . '/libraries/REST_Controller.php';
 
 use Restserver\Libraries\REST_Controller;
 
-// require APPPATH . '/libraries/RestController.php';
-// use chriskacerguis\RestServer\RestController;
-
 class Api extends REST_Controller {
 
     function __construct()
